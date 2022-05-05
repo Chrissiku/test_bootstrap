@@ -104,4 +104,10 @@ section#about ul li a {
     line-height: 52px;
     font-weight: 500;
   }
+
+  
+  section#contact {
+    padding: 0 130px;
+    width: 684px;
+  }
 }
