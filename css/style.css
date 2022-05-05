@@ -5,6 +5,7 @@
 
 i {
   color: #fff;
+  font-size: 20px;
 }
 
 nav {
@@ -16,8 +17,8 @@ nav {
   color: #9390ff;
 }
 
-hr{
-    padding: 1px;
+hr {
+  padding: 1px;
 }
 
 section.home {
@@ -34,18 +35,46 @@ section.home div h2 {
   color: #edecff;
 }
 
-section.home ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
-section.home h3{
-    font-size: 12px;
+section.home h3 {
+  font-size: 12px;
 }
 
-section.home ul li{
-    line-height: 24px;
-    font-size: 15px;
+section.home ul li {
+  line-height: 24px;
+  font-size: 15px;
 }
+
+section#about {
+  font-family: "Roboto", sans-serif;
+}
+
+section#about h2 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 52px;
+  text-transform: uppercase;
+}
+
+section#about h3 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+section#about ul li {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+section#about ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
 
 @media screen and (min-width: 768px) {
   section.home div h1 {
@@ -57,9 +86,22 @@ section.home ul li{
     font-size: 40px;
   }
 
-  section.home h3{
+  section.home h3 {
     font-size: 18px;
     font-weight: 700;
     line-height: 30px;
-}
+  }
+
+  section#about h2 {
+    font-size: 64px;
+    line-height: 114px;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+
+  section#about h3 {
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 500;
+  }
 }
