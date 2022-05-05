@@ -11,3 +11,55 @@ nav {
   font-family: "Roboto", sans-serif;
   line-height: 20px;
 }
+
+.color1 {
+  color: #9390ff;
+}
+
+hr{
+    padding: 1px;
+}
+
+section.home {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+section.home div h1 {
+  font-size: 48px;
+}
+
+section.home div h2 {
+  font-size: 32px;
+  color: #edecff;
+}
+
+section.home ul{
+    list-style: none;
+}
+
+section.home h3{
+    font-size: 12px;
+}
+
+section.home ul li{
+    line-height: 24px;
+    font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  section.home div h1 {
+    font-size: 90px;
+    line-height: 105px;
+  }
+
+  section.home div h2 {
+    font-size: 40px;
+  }
+
+  section.home h3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+}
+}
